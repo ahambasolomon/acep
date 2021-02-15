@@ -5,21 +5,10 @@
       <div>
         <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
         <b-card>
-          <h4 class="ml- authtext" style="padding-left: 15px">Register</h4>
+          <h4 class="ml- authtext" style="padding-left: 15px">Sign in</h4>
           <b-form>
             <b-container fluid>
-              <div class="row auth">
-                <div class="col-md-6">
-                  <b-form-group id="firstname" label="First name" label-for="firstname">
-                    <b-form-input id="firstname" type="text" placeholder="Firstname" required ></b-form-input>
-                  </b-form-group>
-                </div>
-                <div class="col-md-6">
-                  <b-form-group id="lastname" label="Last name" label-for="lastname">
-                    <b-form-input id="lastname" type="text" placeholder="Lastname" required ></b-form-input>
-                  </b-form-group>
-                </div>
-              </div>
+
               <div class="row auth">
                 <div class="col-md-12">
                   <b-form-group id="email" label="Email" label-for="email">
@@ -36,20 +25,15 @@
                       </template>
                     </b-form-input>
                   </b-form-group>
+                  <p class="mt-2 trai float-right"><span> Forgot Password? </span> </p>
                 </div>
               </div>
-              <div class="row auth">
-                <div class="col-md-12">
-                  <b-form-group id="password" label="Password Confirmation" label-for="password-confirmation">
-                    <b-form-input id="password-confirmation" type="password" placeholder="Password confirmation" required ></b-form-input>
-                  </b-form-group>
-                </div>
-              </div>
-              <b-button href="#" block variant="primary">Register</b-button>
+
+              <b-button href="#" block style="font-weight: bold;" variant="primary">Sign In</b-button>
             </b-container>
           </b-form>
         </b-card>
-        <p class="mt-2 authstory"> Already have an have an account? <strong>  <b-link to="login"> Sign In. </b-link> </strong> </p>
+         <p class="mt-2 authstory"> Don't have an account? <strong>  <b-link to="/"> Sign Up. </b-link> </strong> </p>
       </div>
     </div>
   </div>
