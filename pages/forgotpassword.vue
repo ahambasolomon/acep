@@ -5,7 +5,7 @@
       <div class="authspace">
         <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
         <b-card>
-          <p class="float-left" style="padding-left: 15px">Reset Password</p>
+          <p class="ml- authtext" style="padding-left: 15px">Reset Password</p>
           <b-form>
             <b-container fluid>
 
