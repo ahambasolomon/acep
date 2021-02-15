@@ -2,7 +2,7 @@
   <div>
 
     <div class="container">
-      <div>
+      <div class="authspace">
         <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
         <b-card>
           <h4 class="ml- authtext" style="padding-left: 15px">Register</h4>

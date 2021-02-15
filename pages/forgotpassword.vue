@@ -5,7 +5,7 @@
       <div class="authspace">
         <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
         <b-card>
-          <h4 class="ml- authtext" style="padding-left: 15px">Sign in</h4>
+          <p class="float-left" style="padding-left: 15px">Reset Password</p>
           <b-form>
             <b-container fluid>
 
@@ -14,18 +14,6 @@
                   <b-form-group id="email" label="Email" label-for="email">
                     <b-form-input id="email" type="text" placeholder="Email" required ></b-form-input>
                   </b-form-group>
-                </div>
-              </div>
-              <div class="row auth">
-                <div class="col-md-12">
-                  <b-form-group id="password" label="Password" label-for="Password">
-                    <b-form-input id="password" type="password" placeholder="Password" required >
-                      <template #append>
-                        <b-input-group-text><strong class="text-danger">!</strong></b-input-group-text>
-                      </template>
-                    </b-form-input>
-                  </b-form-group>
-                  <p class="mt-2 trai float-right"><span> <b-link to="forgotpassword"> Forgot Password? </b-link> </span> </p>
                 </div>
               </div>
 
