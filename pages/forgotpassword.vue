@@ -17,7 +17,7 @@
                 </div>
               </div>
 
-              <b-button href="#" block style="font-weight: bold;" variant="primary">Sign In</b-button>
+              <b-button href="#" block style="font-weight: bold;" variant="primary">Reset Password</b-button>
             </b-container>
           </b-form>
         </b-card>
