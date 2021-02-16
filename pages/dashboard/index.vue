@@ -16,7 +16,7 @@
 
          <a class="sidebar--navigation--container">
           <div class="sidebar--navigation--container--icons">
-            <b-icon-columns class="h4 mr-3"></b-icon-columns>
+            <b-icon-columns-gap class="h4 mr-3"></b-icon-columns-gap>
           </div>
           <span class="h6 sidebar--navigation--container--links">
             EXAM
