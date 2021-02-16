@@ -83,15 +83,25 @@ body {
     &--navigation {
       padding-top: 5px;
       padding-bottom: 5px;
+      &--container:hover {
+        font-weight: bold;
+        background: $body-color;
+        border-right: 3px solid $primary;
+        z-index: 2px;
+      }
+      &--container:active {
+        font-weight: bold;
+        background: $body-color;
+        border-right: 3px solid $primary;
+        z-index: 2px;
+      }
       &--container {
         display: block;
         height: 60px;
-        background: $body-color;
-        // margin-top: 5px;
+        cursor: default;
         margin-bottom: 15px;
         padding-top: 16px;
         padding-left: 8px;
-        border-right: 3px solid $primary;
         &--icons {
           display: inline;
           width: 20%;

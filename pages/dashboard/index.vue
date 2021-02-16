@@ -14,12 +14,21 @@
           </span>
         </a>
 
-         <a class="sidebar--navigation--container">
+        <a class="sidebar--navigation--container">
           <div class="sidebar--navigation--container--icons">
             <b-icon-columns-gap class="h4 mr-3"></b-icon-columns-gap>
           </div>
           <span class="h6 sidebar--navigation--container--links">
             EXAM
+          </span>
+        </a>
+
+        <a class="sidebar--navigation--container">
+          <div class="sidebar--navigation--container--icons">
+            <b-icon-person-fill class="h4 mr-3"></b-icon-person-fill>
+          </div>
+          <span class="h6 sidebar--navigation--container--links">
+            PROFILE
           </span>
         </a>
 
