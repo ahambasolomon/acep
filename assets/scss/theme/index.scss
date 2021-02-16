@@ -63,3 +63,54 @@ body {
   margin-top: 15%;
   margin-bottom: 10%;
 }
+.invalid-feedback, .errormessage {
+  text-align: left;
+  font-size: 10px;
+  color: red;
+}
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  .sidebar{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    padding-left: 50px;
+    &--logo {
+      margin-bottom: 20px;
+    }
+    &--navigation {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      &--container {
+        display: block;
+        height: 60px;
+        background: $body-color;
+        // margin-top: 5px;
+        margin-bottom: 15px;
+        padding-top: 16px;
+        padding-left: 8px;
+        border-right: 3px solid $primary;
+        &--icons {
+          display: inline;
+          width: 20%;
+          margin-right: 0px;
+          .b-icon {
+            margin: 0px;
+          }
+        }
+        &--link {
+          display: inline;
+          // width: 60%;
+        }
+      }
+    }
+  }
+  .mainscreen {
+    width: 80%;
+    height: 100%;
+  }
+}
+
+

@@ -20,6 +20,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/icon.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -38,6 +39,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/auth'
   ],
   bootstrapVue: {
     bootstrapCSS: false,
@@ -47,12 +49,32 @@ export default {
     scss: '@/assets/scss/_variables.scss'
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+
+  },
+  env:{
+    baseUrl: process.env.BASE_URL || 'https://acestest.herokuapp.com/api/'
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: 'en'
+    }
+  },
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: { url: 'https://acestest.herokuapp.com/api/login', method: 'post', propertyName: 'accessToken' },
+          logout: { url: 'https://acestest.herokuapp.com/api/logout', method: 'post' },
+          user: { url: 'https://acestest.herokuapp.com/api/userdata', method: 'get', propertyName: 'userdata' }
+        },
+        tokenRequired: true,
+        tokenType: 'Bearer',
+        globalToken: true,
+        autoFetchUser: true
+      }
     }
   },
 
