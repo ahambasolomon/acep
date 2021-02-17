@@ -23,20 +23,81 @@
           </div>
         </div>
 
-        <div class="container">
+        <div class="container mt-5">
           <div class="row">
-            <div class="col-sm">
-              One of three columns <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quidem tempore reprehenderit facilis nobis nemo omnis itaque voluptatum, blanditiis voluptatem dignissimos ipsum non et architecto, placeat commodi? Voluptate, quis.
+            <div class="col-md-4">
+              <div class="cardbox">
+                <div class="cardbox--img" style="backgroundImage: url(/assets/AWS_careers.jpg)">
+                </div>
+                <div class="cardbox--content px-3">
+                  <div class="mb-2 pt-2" style="height: 17px;">
+                    <span class="page_label_cardbox float-left"> CBAP </span>
+                    <div class="float-right">
+                      <b-badge variant="primary">10 Test</b-badge>
+                    </div>
+                  </div>
+                  <div class="my-4">
+                    <div class="">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                       architecto, placeat commodi? Voluptate,
+                    </div>
+                  </div>
+                  <diV class="cardbox--content--final mb-3">
+                    Lorem ipsum dolor sit amet, consectetur
+                  </diV>
+                </div>
+              </div>
             </div>
-            <div class="col-sm">
-              One of three columns <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quidem tempore reprehenderit facilis nobis nemo omnis itaque voluptatum, blanditiis voluptatem dignissimos ipsum non et architecto, placeat commodi? Voluptate, quis.
+
+            <div class="col-md-4">
+              <div class="cardbox">
+                <div class="cardbox--img" style="backgroundImage: url(/assets/AWS_careers.jpg)">
+                </div>
+                <div class="cardbox--content px-3">
+                  <div class="mb-2 pt-2" style="height: 17px;">
+                    <span class="page_label_cardbox float-left"> CBAP </span>
+                    <div class="float-right">
+                      <b-badge variant="primary">10 Test</b-badge>
+                    </div>
+                  </div>
+                  <div class="my-4">
+                    <div class="">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                       architecto, placeat commodi? Voluptate,
+                    </div>
+                  </div>
+                  <diV class="cardbox--content--final mb-3">
+                    Lorem ipsum dolor sit amet, consectetur
+                  </diV>
+                </div>
+              </div>
             </div>
-            <div class="col-sm">
-              One of three columns <br>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia quidem tempore reprehenderit facilis nobis nemo omnis itaque voluptatum, blanditiis voluptatem dignissimos ipsum non et architecto, placeat commodi? Voluptate, quis.
+
+            <div class="col-md-4">
+              <div class="cardbox">
+                <div class="cardbox--img" style="backgroundImage: url(/assets/AWS_careers.jpg)">
+                </div>
+                <div class="cardbox--content px-3">
+                  <div class="mb-2 pt-2" style="height: 17px;">
+                    <span class="page_label_cardbox float-left"> CBAP </span>
+                    <div class="float-right">
+                      <b-badge variant="primary">10 Test</b-badge>
+                    </div>
+                  </div>
+                  <div class="my-4">
+                    <div class="">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                       architecto, placeat commodi? Voluptate,
+                    </div>
+                  </div>
+                  <diV class="cardbox--content--success mb-3">
+                    Lorem ipsum dolor sit amet, consectetur
+                  </diV>
+                </div>
+              </div>
             </div>
+
+
           </div>
         </div>
       </div>
