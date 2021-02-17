@@ -1,39 +1,34 @@
 <template>
   <div class="dashboard">
-    <div class="sidebar">
-      <div class="sidebar--logo">
-        <img src="@/static/assets/logo.png" class="mt-5 text-center mb-3" width="150" height="50" alt="">
-      </div>
-      <div class="sidebar--navigation">
-        <a class="sidebar--navigation--container">
-          <div class="sidebar--navigation--container--icons">
-            <b-icon-columns class="h4 mr-3"></b-icon-columns>
-          </div>
-          <span class="h6 sidebar--navigation--container--links">
-            DASHBAORD
-          </span>
-        </a>
-
-        <a class="sidebar--navigation--container">
-          <div class="sidebar--navigation--container--icons">
-            <b-icon-columns-gap class="h4 mr-3"></b-icon-columns-gap>
-          </div>
-          <span class="h6 sidebar--navigation--container--links">
-            EXAM
-          </span>
-        </a>
-
-        <a class="sidebar--navigation--container">
-          <div class="sidebar--navigation--container--icons">
-            <b-icon-person-fill class="h4 mr-3"></b-icon-person-fill>
-          </div>
-          <span class="h6 sidebar--navigation--container--links">
-            PROFILE
-          </span>
-        </a>
-
-      </div>
+    <navbar></navbar>
+    <div class="mainscreen">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, fugiat. Vero eos libero laudantium odio! Harum ipsam laudantium iusto ducimus dolorum quo, quae accusamus tempore atque alias, nihil libero voluptatem.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sed, tempora laboriosam harum obcaecati velit. Molestias porro non temporibus dicta vitae blanditiis exercitationem harum in eum amet, doloremque odio obcaecati!
     </div>
-    <div class="mainscreen"></div>
   </div>
 </template>
+<script>
+
+  import NavBar from '~/components/dashboard/Navbar.vue'
+  export default {
+
+    middleware: 'auth',
+    methods: {
+      logout() {
+        swal({
+          title: "Confirm",
+          text: "Are you sure you want to Log out ?",
+          icon: "warning",
+          button: "Aww yiss!",
+        }).then((res) => {
+          if (res == true) {
+            this.$auth.logout()
+          }
+        });
+      },
+    },
+    components: {
+      NavBar,
+    }
+  }
+</script>

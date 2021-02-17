@@ -117,10 +117,44 @@ body {
       }
     }
   }
-  .mainscreen {
-    width: 80%;
-    height: 100%;
+}
+
+.navbar {
+  padding: 0px;
+  height: 64px;
+  background-color: inherit;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.bi-bell-fill{
+  vertical-align: -0.15em!important;
+}
+
+.nav-drop{
+  display: inline;
+  margin-left: 3px;
+  .dropdown-menu {
+    top: 90%!important;
+    right: 0px!important;
+    left: -40px!important;
+    min-width: 7rem!important;
   }
 }
 
+.appnnav {
+  width: 80%;
+  height: 13vh;
+  margin-left: 20%;
+  position: fixed;
+}
 
+.mainscreen {
+  width: 80%;
+  margin-top: 13vh;
+  height: 80vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20%;
+  position: fixed;
+  color: #3F2668;
+}
