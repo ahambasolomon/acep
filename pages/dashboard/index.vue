@@ -37,13 +37,13 @@
                     </div>
                   </div>
                   <div class="my-4">
-                    <div class="">
+                    <div class="cardbox--content--textcontent">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                        architecto, placeat commodi? Voluptate,
                     </div>
                   </div>
-                  <diV class="cardbox--content--final mb-3">
-                    Lorem ipsum dolor sit amet, consectetur
+                  <diV class="cardbox--content--final mb-3 px-3">
+                    Lorem ipsum dolor sit amet,
                   </diV>
                 </div>
               </div>
@@ -61,13 +61,13 @@
                     </div>
                   </div>
                   <div class="my-4">
-                    <div class="">
+                    <div class="cardbox--content--textcontent">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                        architecto, placeat commodi? Voluptate,
                     </div>
                   </div>
-                  <diV class="cardbox--content--final mb-3">
-                    Lorem ipsum dolor sit amet, consectetur
+                  <diV class="cardbox--content--final mb-3 px-3">
+                    Lorem ipsum dolor sit amet,
                   </diV>
                 </div>
               </div>
@@ -85,13 +85,13 @@
                     </div>
                   </div>
                   <div class="my-4">
-                    <div class="">
+                    <div class="cardbox--content--textcontent">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                        architecto, placeat commodi? Voluptate,
                     </div>
                   </div>
-                  <diV class="cardbox--content--success mb-3">
-                    Lorem ipsum dolor sit amet, consectetur
+                  <diV class="cardbox--content--success mb-3 px-2">
+                    Lorem ipsum dolor sit amet,
                   </diV>
                 </div>
               </div>

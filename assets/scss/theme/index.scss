@@ -228,6 +228,13 @@ body {
     // margin-top: 35%;
     height: 65%;
     background: white;
+    &--textcontent {
+      height: 72px;
+      width: 328px;
+      padding-left: 4px;
+      padding-right: 4px;
+      overflow: hidden;
+    }
     &--final{
       /* yellow - transparent */
       background: rgba(247, 189, 1, 0.2);
