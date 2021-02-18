@@ -10,7 +10,7 @@
             <b-icon-columns class="h4 mr-3"></b-icon-columns>
           </div>
           <span class="h6 sidebar--navigation--container--links">
-            DASHBAORD
+            DASHBOARD
           </span>
         </a>
 

@@ -3,7 +3,11 @@
 
     <div class="container">
       <div class="authspace">
-        <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
+
+        <div class="text-center">
+          <img src="@/static/assets/logo.png" class="mt-5 mb-3" width="150" height="50" alt="">
+        </div>
+
         <b-card>
           <p class="ml- authtext" style="padding-left: 15px">Reset Password</p>
           <b-form>
@@ -32,7 +36,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 
 .container {
   margin: 0 auto;
