@@ -280,3 +280,50 @@ body {
     }
   }
 }
+.exam {
+  height: 300px;
+  background: #FFFFFF;
+  &--img {
+    height: 30%;
+    background: $primary;
+  }
+  &--label {
+    padding: 0 10px;
+    .name {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+  &--card {
+    padding: 10px;
+    .content {
+      padding: 2px 40px;
+      border: 2px solid #F7BD01;
+      background: rgba(247, 189, 1, 0.2);
+      border-radius: 10px;
+    }
+  }
+  &--tailcard {
+    padding: 10px;
+    .smallbox {
+      height: 43px;
+      border: 1px solid #f1edf7;
+      padding: 3px;
+      background: inherit;
+      border-radius: 10px;
+      .smalltext {
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+  &--description {
+    color: rgba(34, 33, 91, 0.6);
+    margin-top: 54px;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 55px;
+    overflow: hidden;
+    line-height: 140%;
+  }
+}
