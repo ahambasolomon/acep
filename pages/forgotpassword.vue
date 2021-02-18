@@ -21,7 +21,7 @@
             </b-container>
           </b-form>
         </b-card>
-         <p class="mt-2 authstory" style="color: #3F2668;"> Don't have an account? <strong>  <b-link to="/"> Sign Up. </b-link> </strong> </p>
+         <p class="mt-2 authstory" style="color: #3F2668;"> Don't have an account ? <strong>  <b-link to="/"> Sign Up. </b-link> </strong> </p>
       </div>
     </div>
   </div>
