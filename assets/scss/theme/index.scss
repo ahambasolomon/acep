@@ -8,6 +8,34 @@ body {
 
 }
 
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;         /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+}
+
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;         /* width of the entire scrollbar */
+}
+.sidebar::-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+}
+
+
 .card {
   border: 0px;
 }
@@ -181,11 +209,6 @@ body {
   }
 }
 
-.appnnav {
-
-}
-
-
 
 .mainscreen {
   width: 80vw;
@@ -210,7 +233,9 @@ body {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1195px;
+    // max-width:
+    max-width: 100%;
+    // max-width: 1192px;
   }
 }
 

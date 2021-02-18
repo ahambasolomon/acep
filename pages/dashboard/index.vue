@@ -100,32 +100,41 @@
 
           </div>
         </div>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-md-7">
+              <pausedtest></pausedtest>
+            </div>
+
+            <div class="col-md-5">
+              <recentlycompleted></recentlycompleted>
+            </div>
+
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-
-  import SideBar from '~/components/dashboard/Sidebar.vue'
-  import NavBar from '~/components/dashboard/Navbar.vue'
+  import SideBar from '~/components/dashboard/Sidebar.vue';
+  import NavBar from '~/components/dashboard/Navbar.vue';
+  import PausedTest from '~/components/dashboard/Pausedtest.vue';
+  import Recentlycompleted from '~/components/dashboard/Recentlycompleted.vue';
   export default {
     middleware: 'auth',
     methods: {
-      logout() {
-        swal({
-          title: "Confirm",
-          text: "Are you sure you want to Log out ?",
-          icon: "warning",
-          button: "Aww yiss!",
-        }).then((res) => {
-          if (res == true) {
-            this.$auth.logout()
-          }
-        });
-      },
+
     },
     components: {
-      SideBar, NavBar
+      SideBar,
+      NavBar,
+      PausedTest,
+      Recentlycompleted
     }
   }
 </script>
+
+<style lang="scss" scoped>
+
+</style>
