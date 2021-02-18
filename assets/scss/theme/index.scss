@@ -8,17 +8,17 @@ body {
 
 }
 
-body::-webkit-scrollbar {
+.mainscreen::-webkit-scrollbar {
   width: 5px;
   height: 5px;         /* width of the entire scrollbar */
 }
-body::-webkit-scrollbar-track {
+.mainscreen::-webkit-scrollbar-track {
   background: white;        /* color of the tracking area */
 }
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
+.mainscreen::-webkit-scrollbar-thumb {
+  background-color: #F1F3F6;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+  border: 3px solid #3F2668;  /* creates padding around scroll thumb */
 }
 
 
@@ -30,9 +30,9 @@ body::-webkit-scrollbar-thumb {
   background: white;        /* color of the tracking area */
 }
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
+  background-color: #F1F3F6;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+  border: 3px solid #3F2668;   /* creates padding around scroll thumb */
 }
 
 
