@@ -91,7 +91,8 @@
                     </div>
                   </div>
                   <diV class="cardbox--content--success mb-3 px-2">
-                    Lorem ipsum dolor sit amet,
+                    Lorem ipsum dolor sit
+
                   </diV>
                 </div>
               </div>
