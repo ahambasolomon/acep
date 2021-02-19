@@ -281,7 +281,7 @@ body {
   }
 }
 .exam {
-  height: 300px;
+  height: 352px;
   background: #FFFFFF;
   &--img {
     height: 30%;
@@ -306,7 +306,7 @@ body {
   &--tailcard {
     padding: 10px;
     .smallbox {
-      height: 43px;
+      height: max-content;
       border: 1px solid #f1edf7;
       padding: 3px;
       background: inherit;
@@ -314,8 +314,37 @@ body {
       .smalltext {
         font-size: 10px;
         text-align: center;
+        padding-left: 6px;
+      }
+      .bloc{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 22px;
+        color: $primary;
       }
     }
+
+    .smallboxlast {
+      height: max-content;
+      border: 1px solid $primary;
+      background: $primary;
+      padding: 3px;
+      color: #FFFFFF;
+      border-radius: 10px;
+      .smalltext {
+        font-size: 10px;
+        text-align: center;
+        padding-left: 6px;
+      }
+      .bloc{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 22px;
+        color: #FFFFFF;
+      }
+    }
+
+
   }
   &--description {
     color: rgba(34, 33, 91, 0.6);
@@ -327,3 +356,5 @@ body {
     line-height: 140%;
   }
 }
+
+

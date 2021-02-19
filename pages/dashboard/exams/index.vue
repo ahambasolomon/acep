@@ -31,34 +31,13 @@
 
         <div class="container my-4">
           <div class="row">
-            <div class="col-md-4">
-              <div class="exam">
-                <div class="exam--img mb-3"></div>
-                <div class="exam--label ">
-                  <span class="float-left name"> AWS Cetification </span>
-                  <b-badge class="float-right" variant="primary">10 tests </b-badge>
-                </div>
-                <div class="exam--description mb-2">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam saepe, animi! Dolorem, minus.
-                </div>
-                <div class="exam--card">
-                  <div class="content">
-                    End date 19 feb 2022
-                  </div>
-                </div>
-                <div class="exam--tailcard">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <div class="smallbox">
-                        <span class="text-center smalltext">
-                          total question
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+            <examblock class="mb-3"></examblock>
+            <examblock class="mb-3"></examblock>
+            <examblock class="mb-3"></examblock>
+            <examblock class="mb-3"></examblock>
+            <examblock class="mb-3"></examblock>
+
           </div>
         </div>
 
@@ -70,6 +49,7 @@
   import SideBar from '~/components/dashboard/Sidebar.vue';
   import NavBar from '~/components/dashboard/Navbar.vue';
   import PausedTest from '~/components/dashboard/Pausedtest.vue';
+  import Examblock from '~/components/dashboard/exam/Examblock.vue'
   import Recentlycompleted from '~/components/dashboard/Recentlycompleted.vue';
   export default {
     middleware: 'auth',
@@ -80,7 +60,8 @@
       SideBar,
       NavBar,
       PausedTest,
-      Recentlycompleted
+      Recentlycompleted,
+      Examblock
     }
   }
 </script>
