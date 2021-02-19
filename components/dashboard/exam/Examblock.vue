@@ -21,6 +21,7 @@
                 <span class="text-center smalltext">
                   total question
                 </span>
+                <br>
                 <span class="bloc text-center">
                   932
                 </span>
@@ -32,6 +33,7 @@
                 <span class="text-center smalltext">
                   Totoal Score
                 </span>
+                <br>
                 <span class="bloc text-center">
                   922
                 </span>
@@ -43,6 +45,7 @@
                 <span class="text-center smalltext">
                   Overall Score
                 </span>
+                <br>
                 <span class="bloc text-center">
                   79%
                 </span>

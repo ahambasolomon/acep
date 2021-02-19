@@ -133,6 +133,12 @@ body {
         border-right: 3px solid $primary;
         z-index: 2px;
       }
+      // a.nuxt-link-active {
+      //   font-weight: bold;
+      //   background: $body-color;
+      //   border-right: 3px solid $primary;
+      //   z-index: 2px;
+      // }
       &--container {
         display: block;
         height: 60px;
@@ -311,6 +317,7 @@ body {
       padding: 3px;
       background: inherit;
       border-radius: 10px;
+      text-align: center;
       .smalltext {
         font-size: 10px;
         text-align: center;
@@ -319,7 +326,7 @@ body {
       .bloc{
         font-size: 16px;
         text-align: center;
-        padding-left: 22px;
+        // padding-left: 22px;
         color: $primary;
       }
     }
@@ -331,15 +338,16 @@ body {
       padding: 3px;
       color: #FFFFFF;
       border-radius: 10px;
+      text-align: center;
       .smalltext {
         font-size: 10px;
         text-align: center;
-        padding-left: 6px;
+        // padding-left: 6px;
       }
       .bloc{
         font-size: 16px;
-        text-align: center;
-        padding-left: 22px;
+        // text-align: center;
+        // padding-left: 22px;
         color: #FFFFFF;
       }
     }

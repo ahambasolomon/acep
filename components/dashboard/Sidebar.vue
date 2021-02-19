@@ -15,14 +15,14 @@
           </span>
         </NuxtLink>
 
-        <NuxtLink class="sidebar--navigation--container" to="/dashboard/exams">
-          <div class="sidebar--navigation--container--icons">
-            <b-icon-columns-gap class="h4 mr-3"></b-icon-columns-gap>
+        <dropdown name="EXAM">
+          <div>
+            <nuxt-link to="/dashboard/exams">My exams</nuxt-link>
           </div>
-          <span class="h6 sidebar--navigation--container--links">
-            EXAM
-          </span>
-        </NuxtLink>
+          <div>
+            <nuxt-link to="/dashboard/exams/subscribe">subscribe exam</nuxt-link>
+          </div>
+        </dropdown>
 
         <NuxtLink class="sidebar--navigation--container" to="/dashboard">
           <div class="sidebar--navigation--container--icons">
@@ -47,6 +47,7 @@
 </template>
 <script>
 import swal from 'sweetalert';
+import Dropdown from '~/components/dashboard/Dropdown'
 export default {
    methods: {
     logout() {
@@ -62,5 +63,8 @@ export default {
       });
     },
   },
+  components: {
+    Dropdown
+  }
 }
 </script>
