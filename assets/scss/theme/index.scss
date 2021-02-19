@@ -8,17 +8,17 @@ body {
 
 }
 
-body::-webkit-scrollbar {
+.mainscreen::-webkit-scrollbar {
   width: 5px;
   height: 5px;         /* width of the entire scrollbar */
 }
-body::-webkit-scrollbar-track {
+.mainscreen::-webkit-scrollbar-track {
   background: white;        /* color of the tracking area */
 }
-body::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
+.mainscreen::-webkit-scrollbar-thumb {
+  background-color: #F1F3F6;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+  border: 3px solid #3F2668;  /* creates padding around scroll thumb */
 }
 
 
@@ -30,9 +30,9 @@ body::-webkit-scrollbar-thumb {
   background: white;        /* color of the tracking area */
 }
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: blue;    /* color of the scroll thumb */
+  background-color: #F1F3F6;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid #F15027;  /* creates padding around scroll thumb */
+  border: 3px solid #3F2668;   /* creates padding around scroll thumb */
 }
 
 
@@ -122,6 +122,12 @@ body::-webkit-scrollbar-thumb {
         z-index: 2px;
       }
       &--container:active {
+        font-weight: bold;
+        background: $body-color;
+        border-right: 3px solid $primary;
+        z-index: 2px;
+      }
+      a.nuxt-link-exact-active {
         font-weight: bold;
         background: $body-color;
         border-right: 3px solid $primary;
@@ -272,5 +278,52 @@ body::-webkit-scrollbar-thumb {
       background: #F5F5FB;
       border-radius: 10px
     }
+  }
+}
+.exam {
+  height: 300px;
+  background: #FFFFFF;
+  &--img {
+    height: 30%;
+    background: $primary;
+  }
+  &--label {
+    padding: 0 10px;
+    .name {
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+  &--card {
+    padding: 10px;
+    .content {
+      padding: 2px 40px;
+      border: 2px solid #F7BD01;
+      background: rgba(247, 189, 1, 0.2);
+      border-radius: 10px;
+    }
+  }
+  &--tailcard {
+    padding: 10px;
+    .smallbox {
+      height: 43px;
+      border: 1px solid #f1edf7;
+      padding: 3px;
+      background: inherit;
+      border-radius: 10px;
+      .smalltext {
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+  &--description {
+    color: rgba(34, 33, 91, 0.6);
+    margin-top: 54px;
+    padding: 0 10px;
+    font-size: 14px;
+    height: 55px;
+    overflow: hidden;
+    line-height: 140%;
   }
 }
